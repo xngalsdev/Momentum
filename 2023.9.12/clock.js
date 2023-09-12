@@ -1,4 +1,4 @@
-const clock = document.querySelector("h2#clock");
+const clock = document.querySelector("h1#clock");
 
 /**
  * 시각을 나타내는 함수
