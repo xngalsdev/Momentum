@@ -1,0 +1,12 @@
+body{
+    background-color:beige;
+}
+.hello{
+    color:blueviolet
+}
+.active{
+    color:tomato
+}
+.hidden{
+    display:none;
+}
