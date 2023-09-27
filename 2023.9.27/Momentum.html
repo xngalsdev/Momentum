@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Momentum</title>
+</head>
+<body>
+    
+    <h1 id="clock"></h1>
+
+    <form id="frmLogin" class="hidden">
+        <input required maxlength="19" type="text" placeholder="what's your name?"/>
+
+    </form>
+    
+    <h2 id="greeting" class="hidden"></h2>
+    
+
+    <ul id = "lstTodo">
+        
+    </ul>    
+
+    <form id = "frmTodo" class="Todolist">
+        <input type = "text" placeholder = "할 일을 적고 엔터">
+    </form>
+
+    <div id = "weather">
+        <span>날씨</span>
+        <span>지역</span>
+    </div>
+
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+
+    <script src="backgroud.js"></script>
+    <script src="greeting.js"></script>
+    <script src="clock.js"></script>
+    <script src="quotes.js"></script>
+    <script src="todo.js"></script>
+    <script src="weather.js"></script>
+</body>
+</html>
