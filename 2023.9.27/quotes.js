@@ -1,3 +1,4 @@
+// 명언을 저장하는 배열
 const quotes = [
     {
         quote:"오늘을 즐겨라, 어제는 이미 없고 내일은 아직 오지 않았다." ,
@@ -41,13 +42,14 @@ const quotes = [
     }
 
 ]
-
+// HTMP에서 명언과 작가 정보를 가져옴
 const quote = document.querySelector("#quote span:first-child");
 const author = document.querySelector("#quote span:last-child");
-
+// 초기 명언과 작가 정보를 설정
 quote.innerText = "오늘의 명언";
 author.innerText = "오늘의 작가";
-
+// 배열에서 무작위로 명언을 가져옴
 const todayquote = quotes[Math.floor(Math.random()*quotes.length)];
+// 선택된 명언과 작가를 화면에 표시
 quote.innerText = todayquote.quote;
 author.innerText = todayquote.author
